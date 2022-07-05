@@ -14,6 +14,10 @@ footer {
 
 .contato a {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .footer-texto {
@@ -24,14 +28,18 @@ footer {
 
 .footer-contato li {
   display: flex;
-  gap: 1.25rem;
+  flex-wrap: wrap;
+  gap: 10px;
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 1.65rem;
   line-height: 1.1;
   margin-bottom: 30px;
   color: #fff;
+  align-items: center;
 }
-
+.contato h3 {
+  color: #fff;
+}
 .footer-copy {
   grid-template-columns: 1 / -1;
   font-size: 1.125rem;
